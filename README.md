@@ -7,7 +7,7 @@
 
 # Hello there 👋
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=Omar-Tood.Omar-Tood)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=omartood.omartood)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 ```python
@@ -34,26 +34,26 @@ me.say_hi()
 
 <!-- ## &#x1f4c8; GitHub Stats
 
-<a href="https://github.com/Omar-Tood/Omar-Tood">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omar-Tood&hide=c%2B%2B,c,matlab,assembly&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Zhenye's GitHub Stats" />
+<a href="https://github.com/omartood/omartood">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omartood&hide=c%2B%2B,c,matlab,assembly&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Zhenye's GitHub Stats" />
 </a>
 
-<a href="https://github.com/Omar-Tood/Omar-Tood">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Omar-Tood&show_icons=true&line_height=27&count_private=true&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Zhenye's GitHub Stats" />
+<a href="https://github.com/omartood/omartood">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=omartood&show_icons=true&line_height=27&count_private=true&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Zhenye's GitHub Stats" />
 </a> -->
-[![Omar-Tood's GitHub stats](https://github-readme-stats.vercel.app/api?username=Omar-Tood)](https://github.com/Omar-Tood/github-readme-stats) 
+[![omartood's GitHub stats](https://github-readme-stats.vercel.app/api?username=omartood)](https://github.com/omartood/github-readme-stats) 
 
 
 
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Omar-Tood&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-<a href="https://github.com/Omar-Tood/" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Omar-Tood&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+[![trophy](https://github-profile-trophy.vercel.app/?username=omartood&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<a href="https://github.com/omartood/" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omartood&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
 
 
-<a href="https://github.com/Omar-Tood/crnn-pytorch">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Omar-Tood&repo=crnn-pytorch&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="crnn-pytorch" />
+<a href="https://github.com/omartood/crnn-pytorch">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=omartood&repo=crnn-pytorch&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="crnn-pytorch" />
 </a>
 
 <!-- ## 👨‍💻 This week, I spent my time on:
