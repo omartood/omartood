@@ -410,6 +410,12 @@ p {
   border-bottom: 1px solid #fff;
 }
 
+.bootcamp-link-disabled {
+  color: #888;
+  border-bottom-color: #888;
+  cursor: default;
+}
+
 /* =========================================
    Responsive - New Sections
    ========================================= */
