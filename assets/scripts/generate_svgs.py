@@ -392,9 +392,136 @@ def footer():
     write("footer.svg", svg)
 
 
+# ---------------------------------------------------------------------------
+# ATTENTION (self-attention arcs over a Somali sentence)
+# ---------------------------------------------------------------------------
+def attention():
+    # "I am learning AI and Somali NLP"
+    tokens = ["Aniga", "waxaan", "baranayaa", "AI", "iyo", "Somali", "NLP"]
+    translation = "“I am learning AI and Somali NLP”"
+
+    fs = 18
+    charw = 9.3
+    padx = 18
+    gap = 14
+    margin = 64
+    pill_h = 46
+
+    widths = [max(52, int(len(t) * charw) + 2 * padx) for t in tokens]
+    total = sum(widths) + gap * (len(tokens) - 1)
+    W = total + 2 * margin
+    H = 300
+    pill_y = 214          # arcs anchor at the top edge of each pill
+    text_y = pill_y + 30
+
+    xs, centers = [], []
+    cx = margin
+    for w in widths:
+        xs.append(cx)
+        centers.append(cx + w / 2)
+        cx += w + gap
+
+    style = (
+        "<style>"
+        ".at{font-family:" + FONT + ";}"
+        ".arc{stroke:url(#attArc);fill:none;stroke-dasharray:5 7;"
+        "animation:aflow 1.2s linear infinite;}"
+        "@keyframes aflow{to{stroke-dashoffset:-24;}}"
+        ".qg{opacity:0;animation:qslot %ss ease-in-out infinite;}"
+        "@keyframes qslot{0%%{opacity:0}1.5%%{opacity:1}%s%%{opacity:1}"
+        "%s%%{opacity:0}100%%{opacity:0}}"
+        ".pill{animation:ppulse 3.4s ease-in-out infinite;transform-origin:center;}"
+        "@keyframes ppulse{0%%,100%%{opacity:.82}50%%{opacity:1}}"
+        "</style>"
+    ) % (
+        round(len(tokens) * 2.0, 1),
+        round(100.0 / len(tokens) - 1.2, 1),
+        round(100.0 / len(tokens), 1),
+    )
+
+    defs = (
+        "<defs>"
+        '<linearGradient id="attArc" x1="0" y1="0" x2="1" y2="0">'
+        '<stop offset="0%" stop-color="' + CYAN + '"/>'
+        '<stop offset="100%" stop-color="' + PURPLE + '"/></linearGradient>'
+        '<filter id="aglow" x="-60%" y="-60%" width="220%" height="220%">'
+        '<feGaussianBlur stdDeviation="2.4"/></filter>'
+        "</defs>"
+    )
+
+    # static token pills (drawn first, behind the arcs)
+    pills = []
+    for i, t in enumerate(tokens):
+        delay = round(-(i % 4) * 0.4, 1)
+        pills.append(
+            '<g class="pill" style="animation-delay:%ss">'
+            '<rect x="%.0f" y="%d" width="%d" height="%d" rx="12" '
+            'fill="#11161D" stroke="#222a35" stroke-width="1"/>'
+            '<text class="at" x="%.0f" y="%d" text-anchor="middle" '
+            'font-size="%d" font-weight="600" fill="%s">%s</text>'
+            '<circle cx="%.0f" cy="%d" r="2.6" fill="%s"/>'
+            "</g>"
+            % (delay, xs[i], pill_y, widths[i], pill_h,
+               centers[i], pill_y + 30, fs, WHITE, t,
+               centers[i], pill_y, CYAN)
+        )
+
+    # one query-group per token: ring on the active token + arcs to every key
+    groups = []
+    for qi in range(len(tokens)):
+        qx = centers[qi]
+        parts = [
+            '<g class="qg" style="animation-delay:%ss">' % round(qi * 2.0, 1)
+        ]
+        # arcs from this query to all other tokens
+        for ki in range(len(tokens)):
+            if ki == qi:
+                continue
+            kx = centers[ki]
+            dist = abs(qx - kx)
+            peak = max(16, pill_y - 30 - dist * 0.26)
+            midx = (qx + kx) / 2
+            sw = 1.0 + ((qi * 5 + ki * 3) % 4) * 0.7   # pseudo attention weight
+            op = round(0.45 + ((qi + ki) % 3) * 0.18, 2)
+            fdelay = round(-((ki) % 5) * 0.24, 2)
+            parts.append(
+                '<path class="arc" d="M%.1f %d Q%.1f %.1f %.1f %d" '
+                'stroke-width="%.1f" opacity="%.2f" '
+                'style="animation-delay:%ss"/>'
+                % (qx, pill_y, midx, peak, kx, pill_y, sw, op, fdelay)
+            )
+        # highlight ring on the active query token
+        parts.append(
+            '<rect x="%.0f" y="%d" width="%d" height="%d" rx="12" fill="none" '
+            'stroke="%s" stroke-width="2" filter="url(#aglow)"/>'
+            % (xs[qi], pill_y, widths[qi], pill_h, EMERALD)
+        )
+        parts.append("</g>")
+        groups.append("".join(parts))
+
+    caption = (
+        '<text class="at" x="%d" y="%d" text-anchor="middle" font-size="14" '
+        'font-style="italic" fill="%s">%s</text>'
+        % (W / 2, text_y + pill_h + 6, MUTED, translation)
+    )
+
+    svg = (
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="100%%" '
+        'role="img" aria-label="Self-attention over a Somali sentence">' % (W, H)
+        + style + defs
+        + '<rect width="%d" height="%d" fill="%s" rx="14"/>' % (W, H, BG)
+        + "".join(pills)
+        + "".join(groups)
+        + caption
+        + "</svg>"
+    )
+    write("attention.svg", svg)
+
+
 if __name__ == "__main__":
     hero()
     pipeline()
     keywords()
+    attention()
     footer()
     print("done ->", OUT)

@@ -156,6 +156,18 @@ An evaluation suite measuring how well models understand and generate Somali —
 
 <br/>
 
+## ◇ Self-Attention, in Somali
+
+Every token attends to every other — here's self-attention visualized over a Somali sentence, the kind of low-resource NLP I work on. Watch each query token light up and weigh the rest of the sequence.
+
+<div align="center">
+
+<img src="./svg/attention.svg" width="100%" alt="Self-attention arcs over the Somali sentence: Aniga waxaan baranayaa AI iyo Somali NLP — 'I am learning AI and Somali NLP'" />
+
+</div>
+
+<br/>
+
 ## ◇ GitHub Stats
 
 <div align="center">
