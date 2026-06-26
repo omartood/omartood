@@ -22,6 +22,16 @@ I'm **Omar Tood** — an AI Researcher and Software Engineer with an **MSc in Ar
 
 <br/>
 
+<div align="center">
+
+### ◇ The way I think about AI systems
+
+<img src="./svg/pipeline.svg" width="300" alt="Pipeline: Dataset → Embedding → Self-Attention → Reasoning → Output" />
+
+</div>
+
+<br/>
+
 ## ◇ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-8B5CF6?style=flat-square&logo=python&logoColor=white)
