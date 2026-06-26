@@ -520,7 +520,6 @@ def attention():
 
 if __name__ == "__main__":
     hero()
-    pipeline()
     keywords()
     attention()
     footer()
