@@ -18,7 +18,7 @@
 
 ## ◇ About
 
-I'm **Omar Tood** — an AI Researcher and Software Engineer with an **MSc in Artificial Intelligence**. I build intelligent systems around **Large Language Models**, **agentic AI**, and **transformer architectures**, with a focus on bringing modern NLP to **low-resource languages like Somali**.
+I'm **Omar Tood**  an AI Researcher and Software Engineer with an **MSc in Artificial Intelligence**. I build intelligent systems around **Large Language Models**, **agentic AI**, and **transformer architectures**, with a focus on bringing modern NLP to **low-resource languages like Somali**.
 
 <br/>
 
