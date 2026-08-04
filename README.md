@@ -11,20 +11,6 @@ I'm **Omar Tood**  an Machine Learning Engineer & AI Researcher with an **MSc in
 
 <br/>
 
-### ◇ The way I think about AI systems
-
-![Dataset](https://img.shields.io/badge/Dataset-8B5CF6?style=flat-square&logoColor=white)
-→
-![Embedding](https://img.shields.io/badge/Embedding-06B6D4?style=flat-square&logoColor=white)
-→
-![Self--Attention](https://img.shields.io/badge/Self--Attention-06B6D4?style=flat-square&logoColor=white)
-→
-![Reasoning](https://img.shields.io/badge/Reasoning-10B981?style=flat-square&logoColor=white)
-→
-![Output](https://img.shields.io/badge/Output-10B981?style=flat-square&logoColor=white)
-
-<br/>
-
 ## ◇ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-8B5CF6?style=flat-square&logo=python&logoColor=white)
