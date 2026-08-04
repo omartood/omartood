@@ -49,43 +49,6 @@ I'm **Omar Tood**  an AI Researcher and Software Engineer with an **MSc in Artif
 
 <br/>
 
-## ◇ Featured Projects
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### 🧠 Somali LLM
-A large language model built for the **Somali language** — tokenizer, pretraining, and fine-tuning for quality generation in an underserved language.
-
-</td>
-<td valign="top" width="50%">
-
-### 🤖 AI Learning Companion
-An agentic tutor for AI & data science — retrieval-grounded answers and step-by-step reasoning powered by LLMs.
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-### ⚖️ Dastuur AI
-A legal-reasoning assistant over constitutional text — retrieval-augmented, citation-aware answers grounded in sources.
-
-</td>
-<td valign="top" width="50%">
-
-### 📊 Somali AI Benchmark
-An evaluation suite measuring how well models understand and generate Somali — standardized tasks and metrics.
-
-</td>
-</tr>
-</table>
-
-<div align="center"><sub><a href="https://github.com/omartood?tab=repositories">Explore all repositories →</a></sub></div>
-
-<br/>
-
 ## ◇ Self-Attention, in Somali
 
 Self-attention visualized over a Somali sentence — the kind of low-resource NLP I work on. Each query token lights up and weighs the rest of the sequence.
@@ -93,17 +56,6 @@ Self-attention visualized over a Somali sentence — the kind of low-resource NL
 <div align="center">
 
 <img src="./svg/attention.svg" width="100%" alt="Self-attention arcs over the Somali sentence: Aniga waxaan baranayaa AI iyo Somali NLP — 'I am learning AI and Somali NLP'" />
-
-</div>
-
-<br/>
-
-## ◇ GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=omartood&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=C9D1D9" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omartood&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9" alt="Top languages" />
 
 </div>
 
