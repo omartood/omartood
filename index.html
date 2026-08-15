@@ -1,695 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Omar Tood - AI Engineer & Data Science Tutor</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Omar Tood | Machine Learning Engineer and AI Researcher</title>
     <meta
       name="description"
-      content="Omar Tood is an AI Engineer and Data Science Tutor specializing in Machine Learning, Deep Learning, and building intelligent systems. Founder of ToodMind."
+      content="Omar Tood is a machine learning engineer and AI researcher at Goobo Labs, working on large language models, agentic systems, and natural language processing for the Somali language."
+    />
+    <link rel="canonical" href="https://www.omartood.com/" />
+    <meta name="author" content="Omar Tood" />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
     />
 
-    <!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/omartood/30min', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
-<!-- Calendly badge widget end -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Omar Tood" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://www.omartood.com/" />
+    <meta property="og:title" content="Omar Tood | Machine Learning Engineer and AI Researcher" />
     <meta
-      name="keywords"
-      content="Omar Tood, AI Engineer, Data Science, Machine Learning, Deep Learning, Python, ToodMind, Soplang, Software Engineer"
+      property="og:description"
+      content="Machine learning engineer and AI researcher at Goobo Labs, building open datasets, models, and training programs for Somali."
     />
-    <meta name="author" content="Omar Tood" />
-    <!-- Google Fonts: Inter -->
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/129175570?v=4" />
+    <meta property="og:image:alt" content="Portrait of Omar Tood" />
+    <meta property="profile:first_name" content="Omar" />
+    <meta property="profile:last_name" content="Tood" />
+    <meta property="profile:username" content="omartood" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@omartoodAIR" />
+    <meta name="twitter:title" content="Omar Tood | Machine Learning Engineer and AI Researcher" />
+    <meta
+      name="twitter:description"
+      content="Machine learning engineer and AI researcher at Goobo Labs, building open datasets, models, and training programs for Somali."
+    />
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/129175570?v=4" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f6f8f8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23121212'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%23f6f8f8' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Serif+4:ital,wght@0,400;0,500;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="alternate" type="application/rss+xml" title="Omar Tood - Blog" href="feed.xml" />
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
-    <!-- Preload LCP Image -->
-    <link rel="preload" href="https://avatars.githubusercontent.com/u/129175570?v=4" as="image" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://sharafdin.com/" />
-    <meta property="og:title" content="Omar Tood - AI Engineer & Data Science Tutor" />
-    <meta
-      property="og:description"
-      content="Omar Tood is an AI Engineer and Data Science Tutor specializing in Machine Learning, Deep Learning, and building intelligent systems. Founder of ToodMind."
-    />
-    <meta property="og:image" content="https://avatars.githubusercontent.com/u/129175570?v=4" />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://sharafdin.com/" />
-    <meta property="twitter:title" content="Omar Tood - AI Engineer & Data Science Tutor" />
-    <meta
-      property="twitter:description"
-      content="Omar Tood is an AI Engineer and Data Science Tutor specializing in Machine Learning, Deep Learning, and building intelligent systems. Founder of ToodMind."
-    />
-    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/129175570?v=4" />
-
-    <!-- Image-specific meta tags -->
-    <meta property="og:image:width" content="500" />
-    <meta property="og:image:height" content="500" />
-    <meta property="og:image:alt" content="Portrait of Omar Tood" />
-    <meta property="twitter:image:alt" content="Portrait of Omar Tood" />
-
-    <!-- Canonical URL -->
-    <meta rel="canonical" href="https://sharafdin.com/" />
-
-    <!-- WebSite Schema -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Omar Tood - AI Engineer & Data Science Tutor",
-        "url": "https://sharafdin.com",
-        "description": "Personal website of Omar Tood, an AI Engineer and Data Science Tutor specializing in Machine Learning, Deep Learning, and building intelligent systems."
-      }
-    </script>
-
-    <!-- BreadcrumbList Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
+        "@graph": [
           {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://sharafdin.com/"
+            "@type": "ProfilePage",
+            "@id": "https://www.omartood.com/#profilepage",
+            "url": "https://www.omartood.com/",
+            "name": "Omar Tood | Machine Learning Engineer and AI Researcher",
+            "isPartOf": { "@id": "https://www.omartood.com/#website" },
+            "about": { "@id": "https://www.omartood.com/#omartood" },
+            "mainEntity": { "@id": "https://www.omartood.com/#omartood" },
+            "inLanguage": "en"
           },
           {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Projects",
-            "item": "https://sharafdin.com/#projects"
+            "@type": "WebSite",
+            "@id": "https://www.omartood.com/#website",
+            "url": "https://www.omartood.com/",
+            "name": "Omar Tood",
+            "publisher": { "@id": "https://www.omartood.com/#omartood" },
+            "inLanguage": "en"
           },
           {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Research",
-            "item": "https://sharafdin.com/#research"
+            "@type": "Person",
+            "@id": "https://www.omartood.com/#omartood",
+            "name": "Omar Tood",
+            "alternateName": ["Omar Jibril Abdulkadir", "omartood"],
+            "givenName": "Omar",
+            "familyName": "Tood",
+            "url": "https://www.omartood.com/",
+            "image": "https://avatars.githubusercontent.com/u/129175570?v=4",
+            "description": "Omar Tood is a machine learning engineer and AI researcher at Goobo Labs. He works on large language models, agentic systems, and natural language processing for the Somali language.",
+            "jobTitle": "Machine Learning Engineer and AI Researcher",
+            "gender": "Male",
+            "nationality": { "@type": "Country", "name": "Somalia" },
+            "homeLocation": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mogadishu",
+                "addressRegion": "Banaadir",
+                "addressCountry": "SO"
+              }
+            },
+            "knowsLanguage": [
+              { "@type": "Language", "name": "Somali", "alternateName": "so" },
+              { "@type": "Language", "name": "English", "alternateName": "en" }
+            ],
+            "worksFor": { "@id": "https://www.goobolabs.so/#organization" },
+            "affiliation": { "@id": "https://www.goobolabs.so/#organization" },
+            "hasOccupation": {
+              "@type": "Occupation",
+              "name": "Machine Learning Engineer",
+              "occupationalCategory": "15-2051.00"
+            },
+            "alumniOf": [
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Jamhuriya University of Science and Technology"
+              },
+              { "@type": "CollegeOrUniversity", "name": "Hormuud University" }
+            ],
+            "hasCredential": [
+              {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "Bachelor's degree",
+                "name": "BSc in Computer Science",
+                "recognizedBy": {
+                  "@type": "CollegeOrUniversity",
+                  "name": "Jamhuriya University of Science and Technology"
+                }
+              },
+              {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "Master's degree",
+                "name": "MSc in Artificial Intelligence",
+                "recognizedBy": {
+                  "@type": "CollegeOrUniversity",
+                  "name": "Hormuud University"
+                }
+              }
+            ],
+            "knowsAbout": [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Large Language Models",
+              "Natural Language Processing",
+              "Agentic AI",
+              "Somali language technology",
+              "Low-resource languages",
+              "Open datasets",
+              "Tokenization",
+              "Python",
+              "Rust",
+              "PyTorch"
+            ],
+            "sameAs": [
+              "https://github.com/omartood",
+              "https://www.linkedin.com/in/omartood/",
+              "https://x.com/omartoodAIR"
+            ]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://www.goobolabs.so/#organization",
+            "name": "Goobo Labs",
+            "url": "https://www.goobolabs.so/",
+            "description": "An open Somali AI research lab building datasets, foundation models, and free data-science training.",
+            "sameAs": ["https://github.com/goobolabs"]
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://www.omartood.com/#writing",
+            "name": "Writing by Omar Tood",
+            "itemListOrder": "https://schema.org/ItemListOrderDescending",
+            "numberOfItems": 8,
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "Article",
+                  "headline": "Our Biggest Video Yet: What 12,000 Views in a Week Told Us About Somali Demand for AI Education",
+                  "url": "https://www.goobolabs.so/en/blog/full-course-video-12k-views-in-a-week",
+                  "datePublished": "2026-08-08",
+                  "author": { "@id": "https://www.omartood.com/#omartood" },
+                  "publisher": { "@id": "https://www.goobolabs.so/#organization" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "Article",
+                  "headline": "Git & GitHub: The Bootcamp That Closes Every Gap the Last Four Left Behind",
+                  "url": "https://www.goobolabs.so/en/blog/git-github-bootcamp",
+                  "datePublished": "2026-08-07",
+                  "author": { "@id": "https://www.omartood.com/#omartood" },
+                  "publisher": { "@id": "https://www.goobolabs.so/#organization" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "Article",
+                  "headline": "We Gave a Frontier Model Somali Language Standards, and the Result Surprised Us",
+                  "url": "https://www.goobolabs.so/en/blog/how-sls-can-improve-somali-for-frontier-ai",
+                  "datePublished": "2026-08-07",
+                  "author": { "@id": "https://www.omartood.com/#omartood" },
+                  "publisher": { "@id": "https://www.goobolabs.so/#organization" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "Article",
+                  "headline": "Our Biggest Cohort Yet: Inside the June 2026 Data Science & Machine Learning Bootcamp",
+                  "url": "https://www.goobolabs.so/en/blog/jun-ds-ml-bootcamp-2026",
+                  "datePublished": "2026-07-29",
+                  "author": { "@id": "https://www.omartood.com/#omartood" },
+                  "publisher": { "@id": "https://www.goobolabs.so/#organization" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "@type": "Article",
+                  "headline": "Python for Everyone: Teaching the Language Our Data Science Bootcamps Assumed You Already Knew",
+                  "url": "https://www.goobolabs.so/en/blog/python-for-everyone-bootcamp",
+                  "datePublished": "2026-07-06",
+                  "author": { "@id": "https://www.omartood.com/#omartood" },
+                  "publisher": { "@id": "https://www.goobolabs.so/#organization" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                  "@type": "Article",
+                  "headline": "SomNLP-Corpus v2: 887M+ tokens from six open sources",
+                  "url": "https://www.goobolabs.so/en/blog/somnlp-corpus-v2",
+                  "datePublished": "2026-06-09",
+                  "author": { "@id": "https://www.omartood.com/#omartood" },
+                  "publisher": { "@id": "https://www.goobolabs.so/#organization" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 7,
+                "item": {
+                  "@type": "Article",
+                  "headline": "Cohort Two: What We Changed for the Feb 2026 Data Science & Machine Learning Bootcamp",
+                  "url": "https://www.goobolabs.so/en/blog/feb-ds-ml-bootcamp-2026",
+                  "datePublished": "2026-03-26",
+                  "author": { "@id": "https://www.omartood.com/#omartood" },
+                  "publisher": { "@id": "https://www.goobolabs.so/#organization" }
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 8,
+                "item": {
+                  "@type": "Article",
+                  "headline": "Our First Bootcamp: How the Sep 2025 Data Science & Machine Learning Cohort Started It All",
+                  "url": "https://www.goobolabs.so/en/blog/sep-ds-ml-bootcamp-2025",
+                  "datePublished": "2025-10-26",
+                  "author": { "@id": "https://www.omartood.com/#omartood" },
+                  "publisher": { "@id": "https://www.goobolabs.so/#organization" }
+                }
+              }
+            ]
           }
         ]
       }
     </script>
 
-    <!-- SoftwareApplication Schemas -->
-    <script type="application/ld+json">
-      [
-        {
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Soplang",
-          "applicationCategory": "DeveloperApplication",
-          "applicationSubCategory": "ProgrammingLanguage",
-          "operatingSystem": "Cross-platform",
-          "author": { "@type": "Person", "name": "Omar Tood" },
-          "description": "A Somali programming language designed to bring coding closer to Somali speakers.",
-          "url": "https://github.com/soplang/soplang"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Dastuur Agent",
-          "applicationCategory": "DeveloperApplication",
-          "applicationSubCategory": "AIAssistant",
-          "operatingSystem": "Cross-platform",
-          "author": { "@type": "Person", "name": "Omar Tood" },
-          "description": "An intelligent AI-powered assistant that helps users understand and navigate the Somali Provisional Constitution.",
-          "url": "https://github.com/omartood/dastuur-agent"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Tafsiir Agent",
-          "applicationCategory": "DeveloperApplication",
-          "applicationSubCategory": "AIAssistant",
-          "operatingSystem": "Cross-platform",
-          "author": { "@type": "Person", "name": "Omar Tood" },
-          "description": "An AI-powered Somali Quran Tafsiir assistant that provides grounded, accurate answers from Somali Quranic interpretation.",
-          "url": "https://github.com/omartood/tafsiir-agent"
-        },
-        {
-          "@context": "https://schema.org",
-          "@type": "SoftwareApplication",
-          "name": "Yonode",
-          "applicationCategory": "DeveloperApplication",
-          "applicationSubCategory": "Toolkit",
-          "operatingSystem": "Cross-platform",
-          "author": { "@type": "Person", "name": "Omar Tood" },
-          "description": "A Node.js toolkit for simplifying and improving development workflows.",
-          "url": "https://github.com/sharafdin/yonode",
-          "softwareRequirements": "Node.js"
-        }
-      ]
-    </script>
-
     <link rel="stylesheet" href="css/style.css" />
-    
-    <!-- JSON-LD Scripts (Preserved) -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Omar Tood",
-        "url": "https://sharafdin.com",
-        "sameAs": [
-          "https://youtube.com/@toodmind",
-          "https://github.com/omartood",
-          "https://github.com/toodmind",
-          "https://www.toodmind.com"
-        ],
-        "jobTitle": "AI Engineer & Data Science Tutor",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "ToodMind"
-        },
-        "description": "AI Engineer and Data Science Tutor specializing in Machine Learning, Deep Learning, and building intelligent systems. Founder of ToodMind.",
-        "knowsAbout": [
-          "Data Science",
-          "Machine Learning",
-          "Deep Learning",
-          "Artificial Intelligence",
-          "Python",
-          "Software Engineering"
-        ],
-        "image": "https://avatars.githubusercontent.com/u/129175570?v=4",
-        "alumniOf": "Jamhuriya University of Science & Technology"
-      }
-    </script>
-    <!-- (Other JSON-LDs preserved implicitly by simplifying) -->
   </head>
   <body>
-    
-    <div class="container">
-      <nav id="navbar">
-        <div class="lang-switcher">
-          <button id="lang-en" class="lang-btn active" data-lang="en">EN</button>
-          <button id="lang-so" class="lang-btn" data-lang="so">SO</button>
-        </div>
-        <div class="nav-links">
-          <a href="#about" data-i18n="nav.about">ABOUT</a>
-          <a href="#projects" data-i18n="nav.projects">PROJECTS</a>
-          <a href="blog.html" data-i18n="nav.blog">BLOG</a>
-          <a href="uses.html" data-i18n="nav.uses">USES</a>
-          <a href="#research" data-i18n="nav.research">RESEARCH</a>
-          <a href="#contact" data-i18n="nav.contact">CONTACT</a>
-        </div>
-      </nav>
-
-      <header class="hero">
-        <h1 data-i18n="header.title">Omar Tood</h1>
-        <p class="subtitle" data-i18n="header.subtitle">
-          MSc in Artificial Intelligence | AI Researcher
-        </p>
-
-        <div class="social-row">
-            <a href="https://github.com/omartood" class="social-pill"><span data-i18n="sidebar.github">GitHub</span></a>
-            <a href="https://youtube.com/@toodmind" class="social-pill"><span data-i18n="sidebar.youtube">YouTube</span></a>
-            <a href="mailto:hello@omartood.com" class="social-pill"><span data-i18n="sidebar.email">Email</span></a>
-        </div>
+    <main class="container">
+      <header class="site-header">
+        <h1 class="site-title" id="site-title">Omar Tood</h1>
+        <label class="toggle" for="color-mode" aria-label="Toggle dark mode">
+          <input type="checkbox" id="color-mode" class="toggle-checkbox" />
+          <span class="toggle-track"><span class="toggle-thumb"></span></span>
+        </label>
       </header>
 
-      <section id="about">
-        <h2 data-i18n="about.title">About</h2>
-        <div class="profile-lockup">
-            <img src="https://avatars.githubusercontent.com/u/129175570?v=4" alt="Omar Tood" class="profile-img" />
-            <div>
-                <p data-i18n="about.p1">
-                  Omar Tood is an <strong>AI Engineer</strong> and <strong>Data Science Tutor</strong> 
-                  passionate about teaching and building intelligent systems. He graduated with a 
-                  <strong>Bachelor's degree in Computer Science</strong> from Jamhuriya University 
-                  of Science & Technology (2020–2024).
-                </p>
-                <p data-i18n="about.p2">
-                  He hosts <span class="highlight">AI and Machine Learning bootcamps</span>,
-                  creates educational content on his YouTube channel, and develops open-source
-                  tools that transform raw data into actionable insights.
-                </p>
-                
-                <!-- Former Sidebar Competencies -->
-                <div class="skills-container">
-                    <div class="skill-tag" data-i18n="sidebar.comp1">Data Science</div>
-                    <div class="skill-tag" data-i18n="sidebar.comp2">Machine Learning</div>
-                    <div class="skill-tag" data-i18n="sidebar.comp3">Deep Learning</div>
-                    <div class="skill-tag" data-i18n="sidebar.comp4">Python</div>
-                    <div class="skill-tag" data-i18n="sidebar.comp5">AI Engineering</div>
-                    <div class="skill-tag" data-i18n="sidebar.comp6">Software Development</div>
-                </div>
-            </div>
-        </div>
-      </section>
-
-      <section id="projects">
-        <h2 data-i18n="projects.title">Projects</h2>
-        <p data-i18n="projects.intro" style="margin-bottom: 40px; max-width: 600px;">
-          Building tools that make data science and AI accessible to everyone.
+      <section class="bio" id="about" aria-labelledby="site-title">
+        <p>
+          Omar Jibril Abdulkadir, known as Omar Tood, is a machine learning
+          engineer and AI researcher. He works on large language models,
+          agentic systems, and natural language processing for Somali.
         </p>
 
-        <div class="project-grid">
-            <!-- Soplang -->
-            <div class="project-card">
-                <div class="project-title">Soplang</div>
-                <span class="project-tech">Programming Language</span>
-                <p class="project-desc">
-                    A <span class="highlight">Somali programming language</span> designed to bring coding closer to Somali speakers.
-                </p>
-                <a href="https://github.com/soplang/soplang" class="project-link">GitHub Repository</a>
-            </div>
+        <p>
+          Omar is an instructor and researcher at
+          <a href="https://www.goobolabs.so" target="_blank" rel="noopener">Goobo Labs</a>,
+          an open Somali AI research lab. His work there includes
+          <a href="https://github.com/goobolabs/SomNLP-Corpus" target="_blank" rel="noopener">SomNLP-Corpus</a>,
+          the largest open Somali text corpus.
+        </p>
 
-            <!-- Dastuur Agent -->
-            <div class="project-card">
-                <div class="project-title">Dastuur Agent</div>
-                <span class="project-tech">AI Assistant</span>
-                <p class="project-desc">
-                    An <span class="highlight">AI-powered assistant</span> that helps users understand and navigate the Somali Provisional Constitution.
-                </p>
-                <a href="https://github.com/omartood/dastuur-agent" class="project-link">GitHub Repository</a>
-                <a href="https://dastuur.omartood.com" class="project-link" style="margin-left: 8px;">Try it →</a>
-            </div>
+        <p>
+          Somali is spoken by more than 20 million people and remains almost
+          absent from the data that trains modern AI. Closing that gap is the
+          work.
+        </p>
 
-            <!-- Tafsiir Agent -->
-            <div class="project-card">
-                <div class="project-title">Tafsiir Agent</div>
-                <span class="project-tech">AI Assistant</span>
-                <p class="project-desc">
-                    An <span class="highlight">AI-powered Somali Quran Tafsiir assistant</span> that provides grounded, accurate answers from Somali Quranic interpretation.
-                </p>
-                <a href="https://github.com/omartood/tafsiir-agent" class="project-link">GitHub Repository</a>
-                <a href="https://tafsiir.omartood.com" class="project-link" style="margin-left: 8px;">Try it →</a>
-            </div>
-
-            <!-- Yonode -->
-            <div class="project-card">
-                <div class="project-title">Yonode</div>
-                <span class="project-tech">Node.js Toolkit</span>
-                <p class="project-desc">
-                    A <span class="highlight">Node.js toolkit</span> for simplifying and improving development workflows.
-                </p>
-                <a href="https://github.com/sharafdin/yonode" class="project-link">GitHub Repository</a>
-            </div>
-        </div>
-        
-        <p style="margin-top: 40px" data-i18n="projects.explore">
-            Explore more on <a href="https://github.com/omartood">Omar's GitHub Profile</a>.
+        <p>
+          Omar studied Computer Science at Jamhuriya University and completed
+          an MSc in Artificial Intelligence at Hormuud University. He lives in
+          Mogadishu, Somalia.
         </p>
       </section>
 
-      <!-- Stats/Achievements Section -->
-      <section id="stats" class="stats-section">
-        <h2 data-i18n="stats.title">Achievements</h2>
-        <div class="stats-grid">
-          <div class="stat-card">
-            <div class="stat-number" data-target="3">0</div>
-            <div class="stat-label" data-i18n="stats.bootcamps">Bootcamps Hosted</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number" data-target="100" data-suffix="+">0</div>
-            <div class="stat-label" data-i18n="stats.students">Students Graduated</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number" data-target="9">0</div>
-            <div class="stat-label" data-i18n="stats.tools">Open Source Tools</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number" data-target="3" data-suffix="+">0</div>
-            <div class="stat-label" data-i18n="stats.years">Years Experience</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Bootcamps Section -->
-      <section id="bootcamps" class="bootcamps-section">
-        <h2 data-i18n="bootcamps.title">Bootcamps & Courses</h2>
-        <p class="bootcamps-intro" data-i18n="bootcamps.intro">
-          Join hundreds of learners who have started their AI journey through our hands-on bootcamps.
-        </p>
-        <div class="bootcamp-grid">
-          <div class="bootcamp-card">
-            <div class="bootcamp-badge">🔥 Popular</div>
-            <h3 class="bootcamp-title">Data Science & ML Bootcamp</h3>
-            <p class="bootcamp-desc" data-i18n="bootcamps.ds_desc">
-              Comprehensive bootcamp covering Python, Data Analysis, Machine Learning, and real-world projects.
-            </p>
-            <ul class="bootcamp-features">
-              <li>📊 Data Analysis with Pandas</li>
-              <li>🤖 Machine Learning with Scikit-learn</li>
-              <li>📈 Data Visualization</li>
-              <li>🎯 Real-world Projects</li>
-            </ul>
-            <a href="https://github.com/toodmind/ds-ml-bootcamp" class="bootcamp-link" data-i18n="bootcamps.learn_more">Learn More →</a>
-          </div>
-          <div class="bootcamp-card">
-            <div class="bootcamp-badge">🆕 New</div>
-            <h3 class="bootcamp-title" data-i18n="bootcamps.ai_title">AI Agents Bootcamp</h3>
-            <p class="bootcamp-desc" data-i18n="bootcamps.ai_desc">
-              Master building autonomous AI agents using LLMs, LangChain, and modern agentic frameworks.
-            </p>
-            <ul class="bootcamp-features">
-              <li>🧠 LLMs & Prompt Engineering</li>
-              <li>�️ LangChain & CrewAI</li>
-              <li>� RAG & Vector DBs</li>
-              <li>� Multi-Agent Systems</li>
-            </ul>
-            <a href="https://github.com/toodmind/ai-agents-bootcamp" class="bootcamp-link" data-i18n="bootcamps.learn_more">Learn More →</a>
-          </div>
-          <div class="bootcamp-card">
-            <div class="bootcamp-badge">⏳ Coming Soon</div>
-            <h3 class="bootcamp-title" data-i18n="bootcamps.nlp_title">NLP Bootcamp</h3>
-            <p class="bootcamp-desc" data-i18n="bootcamps.nlp_desc">
-              Dive into Natural Language Processing — from text preprocessing to transformers and building language-powered applications.
-            </p>
-            <ul class="bootcamp-features">
-              <li>📝 Text Preprocessing & Embeddings</li>
-              <li>🤖 Transformers & Hugging Face</li>
-              <li>💬 Sentiment Analysis & NER</li>
-              <li>🚀 Building NLP Applications</li>
-            </ul>
-            <span class="bootcamp-link bootcamp-link-disabled" data-i18n="bootcamps.coming_soon">Coming Soon</span>
-          </div>
-        </div>
-      </section>
-
-      <section id="community">
-        <h2 data-i18n="community.title">Community</h2>
-        <p data-i18n="community.p1">
-          Omar Tood is the founder of <span class="highlight">ToodMind</span>, an AI and data innovation team building the next generation of intelligent systems.
-        </p>
-        <p data-i18n="community.p2">
-          Through his <span class="highlight">YouTube channel</span>, <span class="highlight">AI/ML bootcamps</span>, and open-source contributions, he teaches data science and machine learning to learners worldwide.
-        </p>
-        
-        <div style="margin-top: 30px; padding: 20px; border: 1px solid #333;">
-            <strong style="color: #fff; display: block; margin-bottom: 10px;" data-i18n="sidebar.advocate">Data Science Educator</strong>
-            <span data-i18n="sidebar.advocate_text">Omar Tood is committed to making AI and Data Science accessible through quality education, bootcamps, and hands-on projects.</span>
-        </div>
-      </section>
-
-      <section id="research">
-        <h2 data-i18n="research.title">AI & Data Science</h2>
-        <p data-i18n="research.intro">
-           Omar Tood specializes in building <span class="highlight">intelligent systems</span> that transform raw data into real understanding.
-        </p>
-        <ul class="research-list">
-          <li data-i18n="research.item1">
-            <span class="highlight">Machine Learning</span> – Building and training ML models for real-world applications.
+      <section class="list-section" id="writing" aria-labelledby="writing-heading">
+        <h2 id="writing-heading">Writing</h2>
+        <ul>
+          <li>
+            <a href="https://www.goobolabs.so/en/blog/full-course-video-12k-views-in-a-week" target="_blank" rel="noopener">Our Biggest Video Yet: What 12,000 Views in a Week Told Us About Somali Demand for AI Education</a>
+            (Aug 2026)
           </li>
-          <li data-i18n="research.item2">
-            <span class="highlight">Deep Learning</span> – Designing neural network architectures inspired by the brain.
+          <li>
+            <a href="https://www.goobolabs.so/en/blog/git-github-bootcamp" target="_blank" rel="noopener">Git &amp; GitHub: The Bootcamp That Closes Every Gap the Last Four Left Behind</a>
+            (Aug 2026)
           </li>
-          <li data-i18n="research.item3">
-             <span class="highlight">Data Science</span> – Transforming raw data into meaningful insights and actionable intelligence.
+          <li>
+            <a href="https://www.goobolabs.so/en/blog/how-sls-can-improve-somali-for-frontier-ai" target="_blank" rel="noopener">We Gave a Frontier Model Somali Language Standards, and the Result Surprised Us</a>
+            (Aug 2026)
+          </li>
+          <li>
+            <a href="https://www.goobolabs.so/en/blog/jun-ds-ml-bootcamp-2026" target="_blank" rel="noopener">Our Biggest Cohort Yet: Inside the June 2026 Data Science &amp; Machine Learning Bootcamp</a>
+            (Jul 2026)
+          </li>
+          <li>
+            <a href="https://www.goobolabs.so/en/blog/python-for-everyone-bootcamp" target="_blank" rel="noopener">Python for Everyone: Teaching the Language Our Data Science Bootcamps Assumed You Already Knew</a>
+            (Jul 2026)
+          </li>
+          <li>
+            <a href="https://www.goobolabs.so/en/blog/somnlp-corpus-v2" target="_blank" rel="noopener">SomNLP-Corpus v2: 887M+ tokens from six open sources</a>
+            (Jun 2026)
+          </li>
+          <li>
+            <a href="https://www.goobolabs.so/en/blog/feb-ds-ml-bootcamp-2026" target="_blank" rel="noopener">Cohort Two: What We Changed for the Feb 2026 Data Science &amp; Machine Learning Bootcamp</a>
+            (Mar 2026)
+          </li>
+          <li>
+            <a href="https://www.goobolabs.so/en/blog/sep-ds-ml-bootcamp-2025" target="_blank" rel="noopener">Our First Bootcamp: How the Sep 2025 Data Science &amp; Machine Learning Cohort Started It All</a>
+            (Oct 2025)
           </li>
         </ul>
-        <p data-i18n="research.p1">
-          Through <span class="highlight">ToodMind</span>, he hosts <span class="highlight">Data Science and ML bootcamps</span> that have helped hundreds of learners start their AI journey.
-        </p>
       </section>
 
-      <section id="contact">
-        <h2 data-i18n="contact.title">Contact</h2>
-        <p data-i18n="contact.message">
-            Feel free to reach out for collaboration, bootcamp inquiries,
-            or just to connect!
-        </p>
-        <div style="margin-top: 20px;">
-             <a href="mailto:hello@omartood.com" class="social-pill" data-i18n="contact.send_email">Send Email</a>
-        </div>
+      <section class="list-section" id="links" aria-labelledby="links-heading">
+        <h2 id="links-heading">Links</h2>
+        <ul>
+          <li><a href="https://github.com/omartood" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/omartood/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://x.com/omartoodAIR" target="_blank" rel="noopener">X (Twitter)</a></li>
+        </ul>
       </section>
+    </main>
 
-      <footer class="footer">
-        <div class="footer-links" style="margin-bottom: 30px;">
-            <a href="index.html">Home</a>
-            <a href="#about">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="uses.html">Uses</a>
-            <a href="#projects">Projects</a>
-            <a href="#research">Research</a>
-            <a href="#contact">Contact</a>
-            <a href="https://github.com/omartood">GitHub</a>
-            <a href="https://youtube.com/@toodmind">YouTube</a>
-        </div>
-        <p data-i18n="footer.copyright">Copyright © 2026 Omar Tood. All rights reserved.</p>
-        <p data-i18n="footer.designed">Designed and developed by Omar Tood.</p>
-        <p style="font-size: 11px; color: #333; margin-top: 20px;">Press <strong style="color: #555;">~</strong> for terminal</p>
-      </footer>
-    </div>
-
-    <!-- JavaScript for Logic -->
-    <script>
-       const translations = {
-        en: {
-          "header.title": "Omar Tood",
-          "header.subtitle":
-            "MSc in Artificial Intelligence | AI Researcher",
-          "nav.about": "ABOUT",
-          "nav.projects": "PROJECTS",
-          "nav.community": "COMMUNITY",
-          "nav.research": "AI & DATA SCIENCE",
-          "nav.contact": "CONTACT",
-          "about.title": "About",
-          "about.p1":
-            "Omar Tood is an AI Engineer and Data Science Tutor passionate about teaching and building intelligent systems. He graduated with a Bachelor's degree in Computer Science from Jamhuriya University of Science & Technology (2020–2024).",
-          "about.p2":
-            "He hosts AI and Machine Learning bootcamps, creates educational content on his YouTube channel, and develops open-source tools that transform raw data into actionable insights.",
-          "projects.title": "Projects",
-          "projects.intro":
-            "Building tools that make data science and AI accessible to everyone.",
-          "projects.explore": "Explore more on Omar's GitHub Profile.",
-          "community.title": "Community",
-          "community.p1":
-            "Omar Tood is the founder of ToodMind, an AI and data innovation team building the next generation of intelligent systems.",
-          "community.p2":
-            "Through his YouTube channel, AI/ML bootcamps, and open-source contributions, he teaches data science and machine learning to learners worldwide.",
-          "research.title": "AI & Data Science",
-          "research.intro":
-            "Omar Tood specializes in building intelligent systems that transform raw data into real understanding.",
-          "research.item1":
-            "Machine Learning – Building and training ML models for real-world applications.",
-          "research.item2":
-            "Deep Learning – Designing neural network architectures inspired by the brain.",
-          "research.item3":
-            "Data Science – Transforming raw data into meaningful insights and actionable intelligence.",
-          "research.p1":
-            "Through ToodMind, he hosts Data Science and ML bootcamps that have helped hundreds of learners start their AI journey.",
-          "sidebar.connect": "Connect with Omar Tood",
-          "sidebar.email": "Email",
-          "sidebar.youtube": "YouTube",
-          "sidebar.github": "GitHub",
-          "sidebar.toodmind": "ToodMind",
-          "sidebar.comp1": "Data Science",
-          "sidebar.comp2": "Machine Learning",
-          "sidebar.comp3": "Deep Learning",
-          "sidebar.comp4": "Python",
-          "sidebar.comp5": "AI Engineering",
-          "sidebar.comp6": "Software Development",
-          "sidebar.advocate": "Data Science Educator",
-          "sidebar.advocate_text":
-            "Omar Tood is committed to making AI and Data Science accessible through quality education, bootcamps, and hands-on projects.",
-          "footer.copyright":
-            "Copyright © 2026 Omar Tood. All rights reserved.",
-          "footer.designed":
-            "Designed and developed by Omar Tood.",
-          "contact.title": "Contact",
-          "contact.message":
-            "Feel free to reach out for collaboration, bootcamp inquiries, or just to connect!",
-          "contact.send_email": "Send Email",
-          // Stats Section
-          "stats.title": "Achievements",
-          "stats.bootcamps": "Bootcamps Hosted",
-          "stats.students": "Students Graduated",
-          "stats.years": "Years Experience",
-          "stats.tools": "Open Source Tools",
-          // Bootcamps Section
-          "bootcamps.title": "Bootcamps & Courses",
-          "bootcamps.intro": "Join hundreds of learners who have started their AI journey through our hands-on bootcamps.",
-          "bootcamps.ds_desc": "Comprehensive bootcamp covering Python, Data Analysis, Machine Learning, and real-world projects.",
-          "bootcamps.ai_title": "AI Agents Bootcamp",
-          "bootcamps.ai_desc": "Master building autonomous AI agents using LLMs, LangChain, and modern agentic frameworks.",
-          "bootcamps.nlp_title": "NLP Bootcamp",
-          "bootcamps.nlp_desc": "Dive into Natural Language Processing — from text preprocessing to transformers and building language-powered applications.",
-          "bootcamps.learn_more": "Learn More →",
-          "bootcamps.coming_soon": "Coming Soon",
-        },
-        so: {
-          "header.title": "Omar Tood",
-          "header.subtitle":
-            "Injineer AI & Macalin Data Science | Aasaasaha ToodMind",
-          "nav.about": "KU SAABSAN",
-          "nav.projects": "MASHRUUCYADA",
-          "nav.community": "BULSHADA",
-          "nav.research": "AI & DATA SCIENCE",
-          "nav.contact": "XIRIIR",
-          "about.title": "Ku Saabsan",
-          "about.p1":
-            "Omar Tood waa Injineer AI iyo Macalin Data Science oo jecel waxbarashada iyo dhisidda nidaamyada caqliga leh. Wuxuu ka qalin-jabiyay shahaadada koowaad ee Computer Science Jaamacadda Jamhuriya ee Sayniska iyo Teknoolojiyadda (2020-2024).",
-          "about.p2":
-            "Isagoo ah aasaasaha ToodMind, wuxuu qaadaa bootcamp-yada AI iyo Machine Learning, wuxuu abuuraa waxyaabo waxbarasho ah oo ku jira YouTube-kiisa, wuxuuna dhisaa qalab open-source oo u bedela xogta cusub faham dhabta ah.",
-          "projects.title": "Mashruucyada",
-          "projects.intro":
-            "Dhisidda qalabka ka dhigaya Data Science iyo AI mid qof walba heli karo.",
-          "projects.explore": "Wax badan ka eeg Bogga GitHub ee Omar.",
-          "community.title": "Bulshada",
-          "community.p1":
-            "Omar Tood waa aasaasaha ToodMind, koox hal-abuur leh oo AI iyo xogta horumarineysa kuwaas oo dhisaya jiilka xiga ee nidaamyada caqliga leh.",
-          "community.p2":
-            "Isagoo u maraya YouTube-kiisa, bootcamp-yada AI/ML, iyo wax ku biirinta open-source, wuxuu baraa data science iyo machine learning dadka wax barta adduunka oo dhan.",
-          "research.title": "AI & Data Science",
-          "research.intro":
-            "Omar Tood wuxuu ku takhasusay dhisidda nidaamyada caqliga leh oo u bedela xogta cusub faham dhabta ah.",
-          "research.item1":
-            "Machine Learning – Dhisidda iyo tababarka modelihaadka ML ee arrimaha dhabta ah.",
-          "research.item2":
-            "Deep Learning – Naqshadaynta qaab-dhismeedyada network-yada neural ee ku dhisan maskaxda.",
-          "research.item3":
-            "Data Science – U beddalashada xogta cusub macluumaad macno leh iyo falal la qaadi karo.",
-          "research.p1":
-            "Isagoo u maraya ToodMind, wuxuu qaadaa bootcamp-yada Data Science iyo ML kuwaas oo caawiyay boqollaal qof inay bilaabaan safarka AI.",
-          "sidebar.connect": "La xiriir Omar Tood",
-          "sidebar.email": "Email",
-          "sidebar.youtube": "YouTube",
-          "sidebar.github": "GitHub",
-          "sidebar.toodmind": "ToodMind",
-          "sidebar.comp1": "Data Science",
-          "sidebar.comp2": "Machine Learning",
-          "sidebar.comp3": "Deep Learning",
-          "sidebar.comp4": "Python",
-          "sidebar.comp5": "AI Engineering",
-          "sidebar.comp6": "Horumarinta Software-ka",
-          "sidebar.advocate": "Macalin Data Science",
-          "sidebar.advocate_text":
-            "Omar Tood wuxuu u heellan yahay inuu ka dhigo AI iyo Data Science mid qof walba heli karo iyadoo loo marayo waxbarashada tayada sare leh, bootcamp-yada, iyo mashruucyada gacanta lagu sameeyo.",
-          "footer.copyright":
-            "Xuquuqda daabacaadda © 2026 Omar Tood. Dhammaan xuquuqdu way dhawran tahay.",
-          "footer.designed":
-            "Waxaa naqshadeeyay oo horumariyay Omar Tood.",
-          "contact.title": "Xiriir",
-          "contact.message":
-            "Fadlan xor u ahow inaad nala soo xiriirto wixii ku saabsan iskaashi, su'aalaha bootcamp-yada, ama si aan isku baranno!",
-          "contact.send_email": "Dir Email",
-          // Stats Section
-          "stats.title": "Guuleysiyadiisa",
-          "stats.bootcamps": "Bootcamp-yada La Qabtay",
-          "stats.students": "Ardayda Qalin-jabisay",
-          "stats.years": "Sanadaha Khibradda",
-          "stats.tools": "Qalabka Open Source",
-          // Bootcamps Section
-          "bootcamps.title": "Bootcamp-yada & Koorsyada",
-          "bootcamps.intro": "Ku biir boqollaalka ardayda ah ee bilaabay safarka AI iyaga oo u maraya bootcamp-yadayada gacanta lagu sameeyo.",
-          "bootcamps.ds_desc": "Bootcamp dhamaystiran oo daboolaya Python, Falanqaynta Xogta, Machine Learning, iyo mashruucyada dhabta ah.",
-          "bootcamps.ai_title": "Bootcamp-ka AI Agents",
-          "bootcamps.ai_desc": "Baro dhisidda wakiilada AI oo madax-bannaan adigoo isticmaalaya LLMs, LangChain, iyo nidaamyada casriga ah.",
-          "bootcamps.nlp_title": "Bootcamp-ka NLP",
-          "bootcamps.nlp_desc": "Gal Falanqaynta Luqadda Dabiiciga ah — laga bilaabo diyaarinta qoraalka ilaa transformers iyo dhisidda barnaamijyo luqad-ku-shaqeeya.",
-          "bootcamps.learn_more": "Wax Badan Baro →",
-          "bootcamps.coming_soon": "Dhawaan",
-        }
-      };
-
-      function setLanguage(lang) {
-        document.documentElement.lang = lang;
-        document.querySelectorAll("[data-i18n]").forEach((element) => {
-          const key = element.getAttribute("data-i18n");
-          if (translations[lang] && translations[lang][key]) {
-            const translation = translations[lang][key];
-            const links = element.querySelectorAll("a");
-            
-            if (links.length > 0) {
-              // Basic preservation of links logic
-               const linkData = Array.from(links).map((link) => ({
-                text: link.textContent,
-                href: link.href,
-              }));
-              element.textContent = translation;
-               linkData.forEach((link) => {
-                 // Try to match text in translation if possible, or just append/ignore complexity for now
-                 // For now, simpler text replacement is safer for this redesign unless specific needs
-               });
-               // Re-injecting links into translation is complex if translation structure differs. 
-               // Given time constraint, I will stick to simple text replacement for now, 
-               // unless the node had specific class logic.
-               // *Self-correction*: The previous code handled this well. I'll rely on innerHTML replacement if it contains HTML.
-            } 
-            
-            if (element.innerHTML.includes('<span class="highlight">')) {
-                // If the target translation should have highlights, we need it in the data.
-                // The current data doesn't have HTML tags in it generally, the old code regex-ed them in.
-                // I will skip the regex complexity for this pass to avoid breaking.
-                element.textContent = translation;
-            } else {
-                element.textContent = translation;
-            }
-          }
-        });
-
-        document.querySelectorAll(".lang-btn").forEach((btn) => {
-          if (btn.getAttribute("data-lang") === lang) {
-            btn.classList.add("active");
-          } else {
-            btn.classList.remove("active");
-          }
-        });
-        localStorage.setItem("preferredLanguage", lang);
-      }
-
-      document.addEventListener("DOMContentLoaded", function () {
-        const savedLang = localStorage.getItem("preferredLanguage") || "en";
-        setLanguage(savedLang);
-        document.querySelectorAll(".lang-btn").forEach((btn) => {
-          btn.addEventListener("click", function () {
-            const lang = this.getAttribute("data-lang");
-            setLanguage(lang);
-          });
-        });
-
-        // Animated Stats Counter
-        const animateCounters = () => {
-          const counters = document.querySelectorAll('.stat-number');
-          counters.forEach(counter => {
-            const target = parseInt(counter.getAttribute('data-target'));
-            const suffix = counter.getAttribute('data-suffix') || '';
-            const duration = 2000; // 2 seconds
-            const step = target / (duration / 16); // 60fps
-            let current = 0;
-            
-            const updateCounter = () => {
-              current += step;
-              if (current < target) {
-                counter.textContent = Math.floor(current).toLocaleString() + suffix;
-                requestAnimationFrame(updateCounter);
-              } else {
-                counter.textContent = target.toLocaleString() + suffix;
-              }
-            };
-            
-            updateCounter();
-          });
-        };
-
-        // Trigger animation when stats section is visible
-        const statsSection = document.getElementById('stats');
-        if (statsSection) {
-          const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                animateCounters();
-                observer.unobserve(entry.target);
-              }
-            });
-          }, { threshold: 0.3 });
-          
-          observer.observe(statsSection);
-        }
-      });
-    </script>
-    <!-- Terminal Logic -->
-    <script src="js/terminal.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

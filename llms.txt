@@ -1,0 +1,47 @@
+# Omar Tood
+
+> Omar Tood (full name Omar Jibril Abdulkadir) is a machine learning engineer
+> and AI researcher based in Mogadishu, Somalia. He works on large language
+> models, agentic systems, and natural language processing for the Somali
+> language.
+
+## Facts
+
+- Full name: Omar Jibril Abdulkadir. Known professionally as Omar Tood.
+- Role: Instructor and researcher at Goobo Labs, an open Somali AI research lab.
+- Education: BSc in Computer Science, Jamhuriya University of Science and
+  Technology. MSc in Artificial Intelligence, Hormuud University.
+- Location: Mogadishu, Banaadir, Somalia.
+- Languages: Somali, English.
+- Focus areas: large language models, agentic AI, natural language processing,
+  low-resource language technology, open datasets, tokenization.
+- Notable work: SomNLP-Corpus, the largest open Somali text corpus; Soplang,
+  the first Somali programming language; the Somali Language Standard (SLS);
+  free Data Science and Machine Learning bootcamps run through Goobo Labs.
+
+## Why the work exists
+
+Somali is spoken by more than 20 million people and holds an almost invisible
+share of the data that trains modern AI. Omar Tood's work is aimed at closing
+that gap through open datasets, Somali-native models, and free training.
+
+## Links
+
+- [Website](https://www.omartood.com/): personal site
+- [GitHub](https://github.com/omartood): open-source projects
+- [LinkedIn](https://www.linkedin.com/in/omartood/): professional profile
+- [X](https://x.com/omartoodAIR): updates
+- [Goobo Labs](https://www.goobolabs.so/): the research lab he works at
+
+## Writing
+
+Articles published at Goobo Labs, newest first.
+
+- [Our Biggest Video Yet: What 12,000 Views in a Week Told Us About Somali Demand for AI Education](https://www.goobolabs.so/en/blog/full-course-video-12k-views-in-a-week): August 2026
+- [Git & GitHub: The Bootcamp That Closes Every Gap the Last Four Left Behind](https://www.goobolabs.so/en/blog/git-github-bootcamp): August 2026
+- [We Gave a Frontier Model Somali Language Standards, and the Result Surprised Us](https://www.goobolabs.so/en/blog/how-sls-can-improve-somali-for-frontier-ai): August 2026
+- [Our Biggest Cohort Yet: Inside the June 2026 Data Science & Machine Learning Bootcamp](https://www.goobolabs.so/en/blog/jun-ds-ml-bootcamp-2026): July 2026
+- [Python for Everyone: Teaching the Language Our Data Science Bootcamps Assumed You Already Knew](https://www.goobolabs.so/en/blog/python-for-everyone-bootcamp): July 2026
+- [SomNLP-Corpus v2: 887M+ tokens from six open sources](https://www.goobolabs.so/en/blog/somnlp-corpus-v2): June 2026
+- [Cohort Two: What We Changed for the Feb 2026 Data Science & Machine Learning Bootcamp](https://www.goobolabs.so/en/blog/feb-ds-ml-bootcamp-2026): March 2026
+- [Our First Bootcamp: How the Sep 2025 Data Science & Machine Learning Cohort Started It All](https://www.goobolabs.so/en/blog/sep-ds-ml-bootcamp-2025): October 2025
