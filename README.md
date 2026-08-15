@@ -7,7 +7,7 @@
 
 ## ◇ About
 
-I'm **Omar Tood**  an Machine Learning Engineer & AI Researcher with an **MSc in Artificial Intelligence**. I build intelligent systems around **Large Language Models**, **agentic AI**, and **transformer architectures**, with a focus on bringing modern NLP to **low-resource languages like Somali**.
+Omar Jibril Abdulkadir (Omar Tood) is an AI Researcher and Machine Learning Engineer with an MSc in Artificial Intelligence. He specializes in agentic AI and Large Language Models. He is deeply focused on Natural Language Processing. His primary goal is advancing AI tools for Somali and other low-resource languages.
 
 <br/>
 
