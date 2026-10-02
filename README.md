@@ -1,6 +1,6 @@
 ## Omar Tood
 
-Machine learning engineer and AI researcher at [Goobo Labs](https://www.goobolabs.so).
+Machine learning engineer and AI researcher at [Somast](https://www.somast.so).
 I work on large language models, agentic systems, and natural language
 processing for Somali.
 
